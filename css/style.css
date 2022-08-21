@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fafafa;
+    height: 100%;
+}
+header nav {
+    background-color: #EEEEEE;
+    height: 54px;
+}
+
+.navbar-icon i {
+    color: #000;
+}
+
+.navbar-profile-pic {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+}
+.oneriler-pic {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+}
+
+.sticky-sidebar {
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+
+}
+
+nav input::placeholder {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    background-position: 15%;
+    background-size: 10%;
+    background-image: url(/assets/img/search-solid.svg);
+    background-repeat: no-repeat;
+}
+
+.content-wrapper {
+    margin-top: 100px
+}
+
+.story-to-see a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+
+.story-pic {
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 1px;
+    position: relative;
+}
+
+.post-pic {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+.post-icons i {
+    font-size: 25px;
+}
+.post-liked-pic{
+    height: 30px;
+    width: 30px;
+    border-radius: 60%;
+}
+.paylas-butonu {
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #FFF;
+    border: none;
+    color: rgb(0, 119, 255);
+    font-weight: 400;
+}
+.yorum-paylas {
+    border-top: 1px solid rgba(232, 232, 232, 0.824);
+}
+.paylas-butonu:hover,
+.paylas-butonu:focus  {
+    background: #FFF!important;
+    border: none!important;
+    color: rgb(0, 119, 255)!important ;
+}
+/* 
+body {
+    background-color: var(--ako);
+}
+:root {
+    --ako: #7bff00;
+}
+
+*/

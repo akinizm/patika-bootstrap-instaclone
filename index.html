@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/16833ce9b7.js" crossorigin="anonymous"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="instagram-icon-removebg-preview.jpg">
+
+    <title>Instagram Clone</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+            <div class="container">
+                <div class="d-flex flex-row justify-content-between align-items-center col-12">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/instagram.png" alt="">
+                    </a>
+                    <div class="">
+                        <!--d-none d-md-block-->
+                        <!--mobilde gozukmeyecek-->
+                        <form class="form-inline navbar-search-bar">
+                            <input class="form-control" type="search" placeholder="Ara" aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="">
+                        <!--d-none d-md-block-->
+                        <!--mobilde gozukmeyecek-->
+                        <ul class="list-group-horizontal mb-0 navbar-icon">
+                            <li class="list-inline-item align-middle ps-1">
+                                <a href="#">
+                                    <i class="fas fa-home fa-lg"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item align-middle ps-1">
+                                <a href="#">
+                                    <i class="fab fa-facebook-messenger fa-lg"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item align-middle ps-1">
+                                <a href="#">
+                                    <i class="far fa-compass fa-lg"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item align-middle ps-1">
+                                <a href="#">
+                                    <i class="far fa-heart fa-lg"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item align-middle ps-1">
+                                <a href="#">
+                                    <img class="navbar-profile-pic" src="assets/img/profile-pic-1.jpg">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <!-- offset-1-->
+                    <!--mobilde gelisleri duzelt-->
+                    <div class="card story-to-see d-flex justify-content-center py-3 px-2 d-none d-md-block">
+                        <ul class="m-0 ps-0">
+                            <li class="list-inline-item align-middle ms-2">
+                                <a href="#">
+                                    <img class="story-pic" src="assets/img/profile-pic-1.jpg">
+                                    <small class="d-block text-center">kullanici</small>
+                                </a>
+                            </li>
+                            <li class="list-inline-item align-middle ms-2">
+                                <a href="#">
+                                    <img class="story-pic" src="assets/img/profile-pic-2.jpg">
+                                    <small class="d-block text-center">kullanici</small>
+                                </a>
+                            </li>
+                            <li class="list-inline-item align-middle ms-2">
+                                <a href="#">
+                                    <img class="story-pic" src="assets/img/profile-pic-3.jpg">
+                                    <small class="d-block text-center">kullanici</small>
+                                </a>
+                            </li>
+                            <li class="list-inline-item align-middle ms-2">
+                                <a href="#">
+                                    <img class="story-pic" src="assets/img/profile-pic-4.jpg">
+                                    <small class="d-block text-center">kullanici</small>
+                                </a>
+                            </li>
+                            <li class="list-inline-item align-middle ms-2">
+                                <a href="#">
+                                    <img class="story-pic" src="assets/img/profile-pic-1.jpg">
+                                    <small class="d-block text-center">kullanici</small>
+                                </a>
+                            </li>
+                            <li class="list-inline-item align-middle ms-2">
+                                <a href="#">
+                                    <img class="story-pic" src="assets/img/profile-pic-1.jpg">
+                                    <small class="d-block text-center">kullanici</small>
+                                </a>
+                            </li>
+                            <li class="list-inline-item align-middle ms-2">
+                                <a href="#">
+                                    <img class="story-pic" src="assets/img/profile-pic-1.jpg">
+                                    <small class="d-block text-center">kullanici</small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="follower-posts mt-5 d-flex flex-column">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex flex-row align-items-center">
+                                    <img class="post-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-4 fs-4"><strong>kullanici</strong></span>
+                                    <div
+                                        class="d-flex flex-row justify-content-end align-items-center col-11 position-absolute">
+                                        <span class="ms-4 fs-2 mb-3"><strong>...</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="ratio ratio-1x1">
+                                    <img class="" src="assets/img/profile-pic-5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-between post-icons px-3 pt-3">
+                                <ul class="list-inline list-unstyled">
+                                    <li class="list-inline-item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-3">
+                                        <i class="far fa-regular fa-comment"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-3">
+                                        <i class="far fa-regular fa-paper-plane"></i>
+                                    </li>
+                                </ul>
+                                <div class="d-flex flex-row align-items-center">
+                                    <ul class="list-inline list-unstyled">
+                                        <li class="list-inline-item">
+                                            <i class="far fa-regular fa-bookmark"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <img class="post-liked-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-2"><strong>kullanici</strong> <strong>128.365 kisi</strong>
+                                        begendi</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici</strong> ve yaptigi yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 2</strong> ve yaptigi baska bir yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 3</strong> ve onun yaptigi bambaska bir yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span class="text-muted">60 yorumun tumunu gor</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 4</strong> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Enim, nemo.</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 5</strong> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Sapiente quis consectetur debitis eum distinctio accusantium recusandae
+                                        saepe
+                                        eos expedita!</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0 pb-2">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span class="text-muted fs-6">10 saat once</span>
+                                </div>
+                            </div>
+                            <div class="position-relative yorum-paylas">
+                                <input class="w-100 border-0 p-3" type="text" placeholder="Yorum Ekle..."
+                                    aria-label="default input example">
+                                <button class="btn btn-primary position-absolute paylas-butonu">Paylas</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="follower-posts mt-5 d-flex flex-column">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex flex-row align-items-center">
+                                    <img class="post-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-4 fs-4"><strong>kullanici</strong></span>
+                                    <div
+                                        class="d-flex flex-row justify-content-end align-items-center col-11 position-absolute">
+                                        <span class="ms-4 fs-2 mb-3"><strong>...</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="ratio ratio-1x1">
+                                    <img class="" src="assets/img/profile-pic-6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-between post-icons px-3 pt-3">
+                                <ul class="list-inline list-unstyled">
+                                    <li class="list-inline-item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-3">
+                                        <i class="far fa-regular fa-comment"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-3">
+                                        <i class="far fa-regular fa-paper-plane"></i>
+                                    </li>
+                                </ul>
+                                <div class="d-flex flex-row align-items-center">
+                                    <ul class="list-inline list-unstyled">
+                                        <li class="list-inline-item">
+                                            <i class="far fa-regular fa-bookmark"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <img class="post-liked-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-2"><strong>kullanici</strong> <strong>128.365 kisi</strong>
+                                        begendi</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici</strong> ve yaptigi yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 2</strong> ve yaptigi baska bir yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 3</strong> ve onun yaptigi bambaska bir yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span class="text-muted">60 yorumun tumunu gor</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 4</strong> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Enim, nemo.</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 5</strong> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Sapiente quis consectetur debitis eum distinctio accusantium recusandae
+                                        saepe
+                                        eos expedita!</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0 pb-2">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span class="text-muted fs-6">10 saat once</span>
+                                </div>
+                            </div>
+                            <div class="position-relative yorum-paylas">
+                                <input class="w-100 border-0 p-3" type="text" placeholder="Yorum Ekle..."
+                                    aria-label="default input example">
+                                <button class="btn btn-primary position-absolute paylas-butonu">Paylas</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="follower-posts mt-5 d-flex flex-column">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex flex-row align-items-center">
+                                    <img class="post-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-4 fs-4"><strong>kullanici</strong></span>
+                                    <div
+                                        class="d-flex flex-row justify-content-end align-items-center col-11 position-absolute">
+                                        <span class="ms-4 fs-2 mb-3"><strong>...</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="ratio ratio-1x1">
+                                    <img class="" src="assets/img/profile-pic-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-between post-icons px-3 pt-3">
+                                <ul class="list-inline list-unstyled">
+                                    <li class="list-inline-item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-3">
+                                        <i class="far fa-regular fa-comment"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-3">
+                                        <i class="far fa-regular fa-paper-plane"></i>
+                                    </li>
+                                </ul>
+                                <div class="d-flex flex-row align-items-center">
+                                    <ul class="list-inline list-unstyled">
+                                        <li class="list-inline-item">
+                                            <i class="far fa-regular fa-bookmark"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <img class="post-liked-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-2"><strong>kullanici</strong> <strong>128.365 kisi</strong>
+                                        begendi</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici</strong> ve yaptigi yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 2</strong> ve yaptigi baska bir yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 3</strong> ve onun yaptigi bambaska bir yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span class="text-muted">60 yorumun tumunu gor</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 4</strong> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Enim, nemo.</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 5</strong> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Sapiente quis consectetur debitis eum distinctio accusantium recusandae
+                                        saepe
+                                        eos expedita!</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0 pb-2">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span class="text-muted fs-6">10 saat once</span>
+                                </div>
+                            </div>
+                            <div class="position-relative yorum-paylas">
+                                <input class="w-100 border-0 p-3" type="text" placeholder="Yorum Ekle..."
+                                    aria-label="default input example">
+                                <button class="btn btn-primary position-absolute paylas-butonu">Paylas</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="follower-posts mt-5 d-flex flex-column">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex flex-row align-items-center">
+                                    <img class="post-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-4 fs-4"><strong>kullanici</strong></span>
+                                    <div
+                                        class="d-flex flex-row justify-content-end align-items-center col-11 position-absolute">
+                                        <span class="ms-4 fs-2 mb-3"><strong>...</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="ratio ratio-1x1">
+                                    <img class="" src="assets/img/profile-pic-7.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-between post-icons px-3 pt-3">
+                                <ul class="list-inline list-unstyled">
+                                    <li class="list-inline-item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-3">
+                                        <i class="far fa-regular fa-comment"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-3">
+                                        <i class="far fa-regular fa-paper-plane"></i>
+                                    </li>
+                                </ul>
+                                <div class="d-flex flex-row align-items-center">
+                                    <ul class="list-inline list-unstyled">
+                                        <li class="list-inline-item">
+                                            <i class="far fa-regular fa-bookmark"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <img class="post-liked-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-2"><strong>kullanici</strong> <strong>128.365 kisi</strong>
+                                        begendi</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici</strong> ve yaptigi yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 2</strong> ve yaptigi baska bir yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 3</strong> ve onun yaptigi bambaska bir yorum</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span class="text-muted">60 yorumun tumunu gor</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 4</strong> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Enim, nemo.</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span><strong>kullanici 5</strong> Lorem ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Sapiente quis consectetur debitis eum distinctio accusantium recusandae
+                                        saepe
+                                        eos expedita!</span>
+                                </div>
+                            </div>
+                            <div class="card-title mt-0 pt-0 pb-2">
+                                <div class="d-flex flex-row align-items-center ms-3">
+                                    <span class="text-muted fs-6">10 saat once</span>
+                                </div>
+                            </div>
+                            <div class="position-relative yorum-paylas">
+                                <input class="w-100 border-0 p-3" type="text" placeholder="Yorum Ekle..."
+                                    aria-label="default input example">
+                                <button class="btn btn-primary position-absolute paylas-butonu">Paylas</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 py-4 px-2 ms-5">
+                    <div class="">
+                        <div class="d-flex flex-row align-items-center my-auto ">
+                            <img class="post-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                            <span class="ms-4 fs-4"><strong>kullanici</strong></span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <div>
+                                <span class="fs-5 text-muted">Senin icin oneriler</span>
+                            </div>
+                            <div>
+                                <span class="fs-4"><strong>Tumunu gor</strong></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mt-4 d-flex justify-content-between align-items-center">
+                                <div>
+                                    <img class="oneriler-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-4 fs-4"><strong>kullanici</strong></span>
+                                </div>
+                                <div>
+                                    <button class="bg-white text-primary border-0">
+                                        <span class="fw-bold">Takip et</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="mt-4 d-flex justify-content-between align-items-center">
+                                <div>
+                                    <img class="oneriler-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-4 fs-4"><strong>kullanici</strong></span>
+                                </div>
+                                <div>
+                                    <button class="bg-white text-primary border-0">
+                                        <span class="fw-bold">Takip et</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="mt-4 d-flex justify-content-between align-items-center">
+                                <div>
+                                    <img class="oneriler-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-4 fs-4"><strong>kullanici</strong></span>
+                                </div>
+                                <div>
+                                    <button class="bg-white text-primary border-0">
+                                        <span class="fw-bold">Takip et</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="mt-4 d-flex justify-content-between align-items-center">
+                                <div>
+                                    <img class="oneriler-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-4 fs-4"><strong>kullanici</strong></span>
+                                </div>
+                                <div>
+                                    <button class="bg-white text-primary border-0">
+                                        <span class="fw-bold">Takip et</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="mt-4 d-flex justify-content-between align-items-center">
+                                <div>
+                                    <img class="oneriler-pic" src="assets/img/profile-pic-1.jpg" alt="">
+                                    <span class="ms-4 fs-4"><strong>kullanici</strong></span>
+                                </div>
+                                <div>
+                                    <button class="bg-white text-primary border-0">
+                                        <span class="fw-bold">Takip et</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
